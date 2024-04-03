@@ -1,3 +1,4 @@
 #!/bin/python
+import sys
 
-print("Hello World!")
+print("Hello {}!".format(sys.argv[1]))
